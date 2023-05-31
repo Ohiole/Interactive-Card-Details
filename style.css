@@ -265,14 +265,14 @@ input::placeholder{
         left: 20%;
     }
     .backImage img{
-        width: 270px;
+        width: 100%;
     }
     .frontImage{
         z-index: 100;
         margin-top: 20%;
     }
     .frontImage .cardFront{
-        width: 270px;
+        width: 80%;
     }
     .insideText{
         margin-top: 20px;
@@ -285,24 +285,44 @@ input::placeholder{
         top: 42%;
     }
     form{
-        margin-top: 90px;
+        margin-top: 14rem;
     }
     button{
         margin-top: 2em;
     }
 }
-@media screen and (max-width: 522px){
-    form{
-        margin-top: 130px;
-    }
-}
-@media screen and (max-width: 455px){
-    form{
-        margin-top: 100px;
-    }
+@media screen and (max-width: 500px){
     .cardImages{
         position: fixed;
-        top: 10%;
+        right: 20%;
+    }
+    form{
+        margin-top: 10rem;
+    }
+    .insideText .numbers{
+        font-size: 1.1rem;
+        letter-spacing: 0.15em;
+    }
+    .nameAndDate{
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 420px){
+    .insideText .numbers{
+        font-size: 0.95rem;
+        letter-spacing: 0.1em;
+    }
+    .nameAndDate{
+        font-size: 0.65rem;
+        letter-spacing: 0.05em;
+    }
+    form{
+        margin-top: 6rem;
+    }
+    .frontText img{
+        width: 75px;
     }
 }
 @media screen and (max-width: 380px){
@@ -314,36 +334,22 @@ input::placeholder{
         height: 150px;
     }
     form{
-        margin-top: 70px;
         width: 80%;
     }
-    .backImage img{
-        width: 230px;
-    }
-    .frontImage .cardFront{
-        width: 230px;
-    }
     .frontText img{
-        width: 50px;
+        width: 65px;
     }
     .expiryDateAndCvc{
        flex-direction: column;
     }
 }
 
-@media screen and (max-width: 318px){
+@media screen and (max-width: 336px){
     .desktopMobileimage .mobile{
         height: auto;
     }
-    .cardImages{
-        position: fixed;
-        top: 15%;
-    }
-    .backImage img{
-        width: 160px;
-    }
-    .frontImage .cardFront{
-        width: 160px;
+    form{
+        margin-top: 2rem;
     }
     .insideText .numbers{
         font-size: 10px;
@@ -357,3 +363,4 @@ input::placeholder{
         font-size: 10px;
     }
 }
+  
