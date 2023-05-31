@@ -30,9 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
+![Screenshot 2023-05-30 at 09-57-58 Frontend Mentor Interactive card details form](https://github.com/Ohiole/Interactive-Card-Details/assets/67792211/7a0858f5-10ba-42c3-a24b-ddce0a73fbb7)
+
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Ohiole/Interactive-Card-Details)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -76,9 +79,9 @@ I will like to use the border-iumage property much more often, so i woukld read 
 
 ### Useful resources
 
-- [CSS Tricks](https://www.example.com) - This helped me with the border-image property. I really liked this pattern and will use it going forward.
+- [CSS Tricks](https://css-tricks.com/) - This helped me with the border-image property. I really liked this pattern and will use it going forward.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Ohiole](https://www.frontendmentor.io/profile/Ohiole)
+- Twitter - [@__ojoo](https://www.twitter.com/__ojoo)
